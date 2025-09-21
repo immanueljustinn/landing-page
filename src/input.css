@@ -12,10 +12,46 @@
     @apply text-sm text-gray-500 mb-4
 }
 
+.nav {
+    @apply text-gray-600 hover:text-gray-900 mx-2
+}
+
 .teks {
     @apply text-gray-600
 }
 
 .teks-paragraf {
     @apply mb-4
+}
+
+.header-article {
+    @apply bg-white shadow p-6 mb-6
+}
+
+.div-article {
+    @apply container mx-auto flex justify-between items-center
+}
+
+.teks-blog {
+    @apply text-2xl font-bold text-gray-800
+}
+
+.main-article {
+    @apply container mx-auto p-6 bg-white rounded-lg shadow-md flex-grow
+}
+
+.foto {
+    @apply w-130 h-auto rounded-md my-6
+}
+
+.btn-back {
+    @apply flex justify-end m-4
+}
+
+.teks-btn {
+    @apply bg-blue-400 text-white p-2 rounded-md shadow-md hover:bg-blue-600 transition ease-out duration-300
+}
+
+.footer {
+    @apply bg-gray-800 text-white text-center pt-4 mt-6
 }
